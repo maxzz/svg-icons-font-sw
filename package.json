@@ -1,0 +1,10 @@
+{
+  "name": "svg-icons-font-sw",
+  "version": "1.0.0",
+  "description": "My learning and experimenting with custom SVG fonts",
+  "author": "Max Zakharzhevskiy <maxzz@msn.com>",
+  "license": "MIT",
+  "scripts": {
+      "deploy": "gh-pages -d dist"
+  }
+}
