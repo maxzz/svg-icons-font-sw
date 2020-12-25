@@ -10,8 +10,8 @@ let names = glyphs.map(_ => {
 //console.log(names);
 
 var html = names.map((_) => {
-    let style = _.n === 'uniF064' || _.n === 'uniF065' || _.n === 'uniF0A1' ? ' style="font-size: 6px"' : '';
-    return `<div class="symbols-range-cell"${style}> <div>${_.u}</div> <div>${_.n}</div> </div>`;
+    let style = _.n === 'uniF064' || _.n === 'uniF065' || _.n === 'uniF0A1' || _.n === 'uniF0F0' ? ' style="font-size: 6px"' : '';
+    return `<div class="symbols-range-cell"> <div ${style}>${_.u}</div> <div>${_.n}</div> </div>`;
 });
 html = html.join('\n');
 //console.log(html);

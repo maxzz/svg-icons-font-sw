@@ -274,8 +274,19 @@
             }
             .symbols-range-cell {
                 display: grid;
+                min-height: 40px;
+                justify-items: center;
+                row-gap: .4em;
                 font: normal normal normal 14px/1 SwIcons;
             }
+            .symbols-range-cell div:nth-child(1) {
+                color: red;
+                font-size: 3em;
+            }            
+            .symbols-range-cell div:nth-child(2) {
+                font-size: .7em;
+                font-family: sans-serif;
+            }            
         </style>
 
         <div class="symbols-range"></div>
